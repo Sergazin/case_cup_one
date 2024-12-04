@@ -1,0 +1,38 @@
+{
+  "name": "server",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/compression": "^1.7.5",
+    "@types/express": "^4.17.21",
+    "@types/express-session": "^1.18.0",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/lodash": "^4.17.7",
+    "@types/mongoose": "^5.11.97",
+    "@types/password-hash": "^1.2.24",
+    "@types/uuid": "^10.0.0",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.658.1",
+    "@aws-sdk/signature-v4-crt": "^3.658.1",
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "compression": "^1.7.4",
+    "express": "^4.20.0",
+    "express-session": "^1.18.0",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.6.1",
+    "password-hash": "^1.2.2",
+    "uuid": "^10.0.0",
+    "date-fns": "^4.1.0",
+    "exceljs": "^4.4.0"
+  }
+}
